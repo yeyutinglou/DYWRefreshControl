@@ -13,6 +13,8 @@
 		80C2742E2827CB0E0040AB18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C2742C2827CB0E0040AB18 /* Main.storyboard */; };
 		80C274302827CB110040AB18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80C2742F2827CB110040AB18 /* Assets.xcassets */; };
 		80C274332827CB110040AB18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C274312827CB110040AB18 /* LaunchScreen.storyboard */; };
+		80C2743B2827CE790040AB18 /* DYWRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C2743A2827CE780040AB18 /* DYWRefreshControl.swift */; };
+		80C2743D28280B670040AB18 /* DYWRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C2743C28280B670040AB18 /* DYWRefreshView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		80C2742F2827CB110040AB18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80C274322827CB110040AB18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80C274342827CB110040AB18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80C2743A2827CE780040AB18 /* DYWRefreshControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DYWRefreshControl.swift; sourceTree = "<group>"; };
+		80C2743C28280B670040AB18 /* DYWRefreshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DYWRefreshView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				80C274262827CB0E0040AB18 /* AppDelegate.swift */,
 				80C274282827CB0E0040AB18 /* SceneDelegate.swift */,
 				80C2742A2827CB0E0040AB18 /* ViewController.swift */,
+				80C2743A2827CE780040AB18 /* DYWRefreshControl.swift */,
+				80C2743C28280B670040AB18 /* DYWRefreshView.swift */,
 				80C2742C2827CB0E0040AB18 /* Main.storyboard */,
 				80C2742F2827CB110040AB18 /* Assets.xcassets */,
 				80C274312827CB110040AB18 /* LaunchScreen.storyboard */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				80C2742B2827CB0E0040AB18 /* ViewController.swift in Sources */,
+				80C2743D28280B670040AB18 /* DYWRefreshView.swift in Sources */,
 				80C274272827CB0E0040AB18 /* AppDelegate.swift in Sources */,
+				80C2743B2827CE790040AB18 /* DYWRefreshControl.swift in Sources */,
 				80C274292827CB0E0040AB18 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
